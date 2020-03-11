@@ -1,0 +1,2 @@
+E:\CsharpStudy\Program02\obj\Debug\netcoreapp3.1\Program02.AssemblyInfoInputs.cache
+E:\CsharpStudy\Program02\obj\Debug\netcoreapp3.1\Program02.AssemblyInfo.cs
