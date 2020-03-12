@@ -41,6 +41,7 @@ namespace Program05
                 }
                 Console.WriteLine("请输入您的体重(kg)");
                 double input3 = Convert.ToInt32(Console.ReadLine());//获取用户输入的体重 记为input3
+
                 //判断用户输入的体重是否合法
                 while (!(input3 > 0))
                 {
