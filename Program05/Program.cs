@@ -45,6 +45,7 @@ namespace Program05
                 while (!(input3 > 0))
                 {
                     Console.WriteLine("您的输入不合法,请重新输入体重!");
+
                     input3 = Convert.ToInt32(Console.ReadLine());
                 }
 
