@@ -26,6 +26,7 @@ namespace Program05
             {
                 Console.WriteLine("您的输入不合法,请重新输入性别(男/女)!");
                 input1 = Console.ReadLine();
+
             }
             if (input1 == "男") 
             {
