@@ -30,79 +30,101 @@ namespace Program05
             }
             if (input1 == "男") 
             {
-               
-                Console.WriteLine("请输入您的身高(cm)");
-                double input2 = Convert.ToInt32(Console.ReadLine()); //获取用户输入的身高 记为input2
-                //判断用户输入的身高是否合法
-                while (!(input2 > 0)) 
+                try
                 {
-                    Console.WriteLine("您的输入不合法,请重新输入身高!");
-                    input2 = Convert.ToInt32(Console.ReadLine());
-                }
-                Console.WriteLine("请输入您的体重(kg)");
-                double input3 = Convert.ToInt32(Console.ReadLine());//获取用户输入的体重 记为input3
-
-                //判断用户输入的体重是否合法
-                while (!(input3 > 0))
-                {
-                    Console.WriteLine("您的输入不合法,请重新输入体重!");
-
-                    input3 = Convert.ToInt32(Console.ReadLine());
-                }
-
-                double output1 = (input2 - 80) * 0.7; //计算标准体重
-             
-
-
-                //用较大的数减去较小的数计算一个不为负的差值
-                double output2;
-                if (input3 >= output1) 
-                {
-                    output2 = input3 - output1; //此时可能出现正常体重 体重过重 肥胖
-                   
-                    if (output2 <= output1 * 0.1)
+                    Console.WriteLine("请输入您的身高(cm)");
+                    double input2 = Convert.ToInt32(Console.ReadLine()); //获取用户输入的身高 记为input2
+                                                                         //判断用户输入的身高是否合法
+                    while (!(input2 > 0))
                     {
-                        result = "正常体重";
+                        Console.WriteLine("您的输入不合法,请重新输入身高!");
+                        input2 = Convert.ToInt32(Console.ReadLine());
                     }
-                    else if(output2>output1 * 0.1 && output2 <= output1 * 0.2) 
+                    Console.WriteLine("请输入您的体重(kg)");
+                    double input3 = Convert.ToInt32(Console.ReadLine());//获取用户输入的体重 记为input3
+
+                    //判断用户输入的体重是否合法
+                    while (!(input3 > 0))
                     {
-                        result = "体重过重";
+                        Console.WriteLine("您的输入不合法,请重新输入体重!");
+
+                        input3 = Convert.ToInt32(Console.ReadLine());
+                    }
+
+                    double output1 = (input2 - 80) * 0.7; //计算标准体重
+
+
+
+                    //用较大的数减去较小的数计算一个不为负的差值
+                    double output2;
+                    if (input3 >= output1)
+                    {
+                        output2 = input3 - output1; //此时可能出现正常体重 体重过重 肥胖
+
+                        if (output2 <= output1 * 0.1)
+                        {
+                            result = "正常体重";
+                        }
+                        else if (output2 > output1 * 0.1 && output2 <= output1 * 0.2)
+                        {
+                            result = "体重过重";
+                        }
+                        else
+                        {
+                            result = "肥胖";
+                        }
+                        Console.WriteLine("您的健康状况是:" + result);
                     }
                     else
                     {
-                        result = "肥胖";
+                        output2 = output1 - input3;//此时可能出现正常体重 体重过轻 体重不足
+
+                        if (output2 <= output1 * 0.1)
+                        {
+                            result = "正常体重";
+                        }
+                        else if (output2 > output1 * 0.1 && output2 <= output1 * 0.2)
+                        {
+                            result = "体重过轻";
+                        }
+                        else
+                        {
+                            result = "体重不足";
+                        }
+                        Console.WriteLine("您的健康状况是:" + result);
                     }
-                    Console.WriteLine("您的健康状况是:" + result);
+
                 }
-                else 
+                catch
                 {
-                    output2 = output1 - input3;//此时可能出现正常体重 体重过轻 体重不足
-                  
-                    if (output2 <= output1 * 0.1)
-                    {
-                        result = "正常体重";
-                    }
-                    else if (output2 > output1 * 0.1 && output2 <= output1 * 0.2)
-                    {
-                        result = "体重过轻";
-                    }
-                    else
-                    {
-                        result = "体重不足";
-                    }
-                    Console.WriteLine("您的健康状况是:" + result);
+                    Console.WriteLine("您的输入不合法.");
                 }
-                
-                
                 
             }
             else if (input1 == "女") 
             {
+                try
+                {
+                    Console.WriteLine("请输入您的身高(cm)");
+                    double input2 = Convert.ToInt32(Console.ReadLine()); //获取用户输入的身高 记为input2
+                                                                         //判断用户输入的身高是否合法
+                    while (!(input2 > 0))
+                    {
+                        Console.WriteLine("您的输入不合法,请重新输入身高!");
+                        input2 = Convert.ToInt32(Console.ReadLine());
+                    }
+                    Console.WriteLine("请输入您的体重(kg)");
+                    double input3 = Convert.ToInt32(Console.ReadLine());//获取用户输入的体重 记为input3
 
-                Console.WriteLine("请输入您的身高(cm)");
-                double input2 = Convert.ToInt32(Console.ReadLine()); //获取用户输入的身高 记为input2
-                Console.WriteLine("请输入您的体重(kg)");
-                double input3 = Convert.ToInt32(Console.ReadLine());//获取用户输入的体重 记为input3
+                    //判断用户输入的体重是否合法
+                    while (!(input3 > 0))
+                    {
+                        Console.WriteLine("您的输入不合法,请重新输入体重!");
+
+                        input3 = Convert.ToInt32(Console.ReadLine());
+                    }
+               
+              
 
                 double output1 = (input2 - 70) * 0.6; //计算标准体重
                
@@ -147,11 +169,15 @@ namespace Program05
                     Console.WriteLine("您的健康状况是:" + result);
                 }
             }
-           
+                catch
+                {
+                    Console.WriteLine("您的输入不合法");
+                }
 
-            
+                 }
 
-            
+
+
         }
     }
 }
