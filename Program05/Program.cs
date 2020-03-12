@@ -33,8 +33,20 @@ namespace Program05
                
                 Console.WriteLine("请输入您的身高(cm)");
                 double input2 = Convert.ToInt32(Console.ReadLine()); //获取用户输入的身高 记为input2
+                //判断用户输入的身高是否合法
+                while (!(input2 > 0)) 
+                {
+                    Console.WriteLine("您的输入不合法,请重新输入身高!");
+                    input2 = Convert.ToInt32(Console.ReadLine());
+                }
                 Console.WriteLine("请输入您的体重(kg)");
                 double input3 = Convert.ToInt32(Console.ReadLine());//获取用户输入的体重 记为input3
+                //判断用户输入的体重是否合法
+                while (!(input3 > 0))
+                {
+                    Console.WriteLine("您的输入不合法,请重新输入体重!");
+                    input3 = Convert.ToInt32(Console.ReadLine());
+                }
 
                 double output1 = (input2 - 80) * 0.7; //计算标准体重
              
