@@ -21,6 +21,12 @@ namespace Program05
             string result;//用于保存健康状况信息
             Console.WriteLine("请输入您的性别(男/女)");
             string input1 = Console.ReadLine(); //获取用户输入的性别 记为input1
+            //当用户输入的信息不合法时，要求用户重新输入
+            while (!(input1 == "男" || input1 == "女")) 
+            {
+                Console.WriteLine("您的输入不合法,请重新输入性别(男/女)!");
+                input1 = Console.ReadLine();
+            }
             if (input1 == "男") 
             {
                
@@ -126,10 +132,7 @@ namespace Program05
                     Console.WriteLine("您的健康状况是:" + result);
                 }
             }
-            else 
-            {
-                Console.WriteLine("请输入正确的信息!");
-            }
+           
 
             
 
