@@ -1,0 +1,11 @@
+E:\CsharpStudy\Program06\bin\Debug\netcoreapp3.1\Program06.exe
+E:\CsharpStudy\Program06\bin\Debug\netcoreapp3.1\Program06.deps.json
+E:\CsharpStudy\Program06\bin\Debug\netcoreapp3.1\Program06.runtimeconfig.json
+E:\CsharpStudy\Program06\bin\Debug\netcoreapp3.1\Program06.runtimeconfig.dev.json
+E:\CsharpStudy\Program06\bin\Debug\netcoreapp3.1\Program06.dll
+E:\CsharpStudy\Program06\bin\Debug\netcoreapp3.1\Program06.pdb
+E:\CsharpStudy\Program06\obj\Debug\netcoreapp3.1\Program06.csprojAssemblyReference.cache
+E:\CsharpStudy\Program06\obj\Debug\netcoreapp3.1\Program06.AssemblyInfoInputs.cache
+E:\CsharpStudy\Program06\obj\Debug\netcoreapp3.1\Program06.AssemblyInfo.cs
+E:\CsharpStudy\Program06\obj\Debug\netcoreapp3.1\Program06.dll
+E:\CsharpStudy\Program06\obj\Debug\netcoreapp3.1\Program06.pdb
