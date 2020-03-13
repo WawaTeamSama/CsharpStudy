@@ -11,6 +11,7 @@ namespace Program07MethodTest
             Console.WriteLine("2的4次方" + Math.Pow(2, 4));
 
             Console.WriteLine("求1-6的和为" + Test(6));
+            Console.WriteLine("小兔子在第3年第1个月的对数为:" + Fibonacci(25));
         }
         public static int Add(int num1,int num2)
         {
@@ -26,5 +27,14 @@ namespace Program07MethodTest
             int tmp = Test(n - 1);
             return tmp + n;
         } 
+        //3月13日作业小兔子问题 斐波那契数列
+        public static int Fibonacci(int n)
+        {
+            if (n <= 2)
+            {
+                return 1;
+            }
+            return Fibonacci(n - 1) + Fibonacci(n - 2);
+        }
     }
 }
