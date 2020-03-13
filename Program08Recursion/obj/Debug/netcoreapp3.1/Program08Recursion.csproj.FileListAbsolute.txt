@@ -1,0 +1,10 @@
+E:\CsharpStudy\Program08Recursion\bin\Debug\netcoreapp3.1\Program08Recursion.exe
+E:\CsharpStudy\Program08Recursion\bin\Debug\netcoreapp3.1\Program08Recursion.deps.json
+E:\CsharpStudy\Program08Recursion\bin\Debug\netcoreapp3.1\Program08Recursion.runtimeconfig.json
+E:\CsharpStudy\Program08Recursion\bin\Debug\netcoreapp3.1\Program08Recursion.runtimeconfig.dev.json
+E:\CsharpStudy\Program08Recursion\bin\Debug\netcoreapp3.1\Program08Recursion.dll
+E:\CsharpStudy\Program08Recursion\bin\Debug\netcoreapp3.1\Program08Recursion.pdb
+E:\CsharpStudy\Program08Recursion\obj\Debug\netcoreapp3.1\Program08Recursion.AssemblyInfoInputs.cache
+E:\CsharpStudy\Program08Recursion\obj\Debug\netcoreapp3.1\Program08Recursion.AssemblyInfo.cs
+E:\CsharpStudy\Program08Recursion\obj\Debug\netcoreapp3.1\Program08Recursion.dll
+E:\CsharpStudy\Program08Recursion\obj\Debug\netcoreapp3.1\Program08Recursion.pdb
