@@ -10,13 +10,13 @@ namespace Program06
             //第一题内容
             //try
             //{
-            MaxAndMinMethod();//调用方法 实现循环
-                              //}
-                              //catch 
-                              //{
-                              //    Console.WriteLine("您的输入不合法!");
-                              //    MaxAndMinMethod();
-                              //}
+            //MaxAndMinMethod();//调用方法 实现循环
+            //}
+            //catch 
+            //{
+            //Console.WriteLine("您的输入不合法!");
+            //MaxAndMinMethod();
+            //}
 
             //第二题内容
             //MultiplicationTable();
