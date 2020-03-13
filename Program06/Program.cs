@@ -10,16 +10,16 @@ namespace Program06
             //第一题内容
             //try
             //{
-            //    MaxAndMinMethod();//调用方法 实现循环
-            //}
-            //catch 
-            //{
-            //    Console.WriteLine("您的输入不合法!");
-            //    MaxAndMinMethod();
-            //}
-            
+            MaxAndMinMethod();//调用方法 实现循环
+                              //}
+                              //catch 
+                              //{
+                              //    Console.WriteLine("您的输入不合法!");
+                              //    MaxAndMinMethod();
+                              //}
+
             //第二题内容
-                MultiplicationTable();
+            //MultiplicationTable();
             
             
         }
@@ -30,7 +30,14 @@ namespace Program06
             ArrayList arraylist = new ArrayList();//实例化一个ArrayList可变长数组
             Console.WriteLine("请输入一个整数(输入0结束)");
 
-            int num = Convert.ToInt32(Console.ReadLine()); //获取用户第一个输入的数字
+            int num;
+            //检测用户输入的数是否为整数 3.13 并赋值给num
+            while (!(int.TryParse(Console.ReadLine(),out num)))
+            {
+                Console.WriteLine("您的输入不合法,请重新输入一个整数(输入0结束)");
+            }
+
+           
             arraylist.Add(num);//将用户第一个输入的数字添加到ArrayList数组中
             while (!(num == 0)) //当用户未输入0时,执行循环要求用户再次输入整数
             {
