@@ -1,0 +1,11 @@
+E:\CsharpStudy\Program07MethodTest\bin\Debug\netcoreapp3.1\Program07MethodTest.exe
+E:\CsharpStudy\Program07MethodTest\bin\Debug\netcoreapp3.1\Program07MethodTest.deps.json
+E:\CsharpStudy\Program07MethodTest\bin\Debug\netcoreapp3.1\Program07MethodTest.runtimeconfig.json
+E:\CsharpStudy\Program07MethodTest\bin\Debug\netcoreapp3.1\Program07MethodTest.runtimeconfig.dev.json
+E:\CsharpStudy\Program07MethodTest\bin\Debug\netcoreapp3.1\Program07MethodTest.dll
+E:\CsharpStudy\Program07MethodTest\bin\Debug\netcoreapp3.1\Program07MethodTest.pdb
+E:\CsharpStudy\Program07MethodTest\obj\Debug\netcoreapp3.1\Program07MethodTest.csprojAssemblyReference.cache
+E:\CsharpStudy\Program07MethodTest\obj\Debug\netcoreapp3.1\Program07MethodTest.AssemblyInfoInputs.cache
+E:\CsharpStudy\Program07MethodTest\obj\Debug\netcoreapp3.1\Program07MethodTest.AssemblyInfo.cs
+E:\CsharpStudy\Program07MethodTest\obj\Debug\netcoreapp3.1\Program07MethodTest.dll
+E:\CsharpStudy\Program07MethodTest\obj\Debug\netcoreapp3.1\Program07MethodTest.pdb
