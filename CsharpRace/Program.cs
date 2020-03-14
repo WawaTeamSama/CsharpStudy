@@ -34,6 +34,7 @@ namespace CsharpRace
             if (englishLastNumber == "y")//当以辅音字母 y 结尾，则将 y 改成 i，再加 es
             {
                 englishResult = englishWord.Substring(0, englishWord.Length - 1) + "ies";
+
             }
             else if (englishLastNumber == "s" || englishLastNumber == "x"|| englishLastTwoNumber == "ch" || englishLastTwoNumber == "sh"||englishLastNumber=="o")//以 s，x，ch，sh 结尾，则加 es；以元音 o 结尾，则加 es；
             {
