@@ -35,11 +35,11 @@ namespace CsharpRace
             {
                 englishResult = englishWord.Substring(0, englishWord.Length - 1) + "ies";
             }
-            else if (englishLastNumber == "s" || englishLastNumber == "x"|| englishLastTwoNumber == "ch" || englishLastTwoNumber == "sh"||englishLastNumber=="o")
+            else if (englishLastNumber == "s" || englishLastNumber == "x"|| englishLastTwoNumber == "ch" || englishLastTwoNumber == "sh"||englishLastNumber=="o")//以 s，x，ch，sh 结尾，则加 es；以元音 o 结尾，则加 es；
             {
                 englishResult = englishWord + "es";
             }
-            else 
+            else //其他情况直接加 s。
             {
                 englishResult = englishWord + "s";
             }
