@@ -27,13 +27,21 @@ namespace CsharpRace
             string englishWord = Console.ReadLine(); //获取用户的输入
 
             string englishLastNumber = englishWord.Substring(englishWord.Length - 1, 1); //截获用户输入的英文单词的最后一个字母
-            
-                Console.WriteLine(englishLastNumber);
-            
+
+            string englishLastTwoNumber = englishWord.Substring(englishWord.Length - 2, 2);//截获用户输入的英文单词的最后二个字母
+       
             string englishResult = "";//用于保存输出的负数结果
             if (englishLastNumber == "y")//当以辅音字母 y 结尾，则将 y 改成 i，再加 es
             {
                 englishResult = englishWord.Substring(0, englishWord.Length - 1) + "ies";
+            }
+            else if (englishLastNumber == "s" || englishLastNumber == "x"|| englishLastTwoNumber == "ch" || englishLastTwoNumber == "sh"||englishLastNumber=="o")
+            {
+                englishResult = englishWord + "es";
+            }
+            else 
+            {
+                englishResult = englishWord + "s";
             }
             Console.WriteLine(englishResult);
         }
