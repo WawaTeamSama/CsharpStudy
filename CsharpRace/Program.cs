@@ -23,6 +23,7 @@ namespace CsharpRace
             //样例输出：
 
             //Boxes
+
             Console.WriteLine("请输入一个英语规则名词");
             string englishWord = Console.ReadLine(); //获取用户的输入
 
