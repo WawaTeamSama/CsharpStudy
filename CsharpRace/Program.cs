@@ -28,6 +28,7 @@ namespace CsharpRace
 
             string englishLastNumber = englishWord.Substring(englishWord.Length - 1, 1); //截获用户输入的英文单词的最后一个字母
 
+
             string englishLastTwoNumber = englishWord.Substring(englishWord.Length - 2, 2);//截获用户输入的英文单词的最后二个字母
        
             string englishResult = "";//用于保存输出的复数结果
