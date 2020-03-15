@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 
 namespace CsharpRace02
 {
@@ -28,11 +29,19 @@ namespace CsharpRace02
             }
             Console.WriteLine("请输入{0}个数(以逗号分隔)", n);
             string array = Console.ReadLine();
-            string[] stringArray = array.Split(",");
-            foreach(string i in stringArray)
+            string[] stringArray =array.Split(","); //将用户输入的内容转换为单个字符串传入一个数组
+
+           
+            ArrayList intArray = new ArrayList();
+            foreach (string i in stringArray)
+            {
+                intArray.Add(i);
+            }
+            foreach(int i in intArray)
             {
                 Console.WriteLine(i);
             }
+
         }
             
 
