@@ -1,0 +1,11 @@
+E:\CsharpStudy\CsharpRace02\bin\Debug\netcoreapp3.1\CsharpRace02.exe
+E:\CsharpStudy\CsharpRace02\bin\Debug\netcoreapp3.1\CsharpRace02.deps.json
+E:\CsharpStudy\CsharpRace02\bin\Debug\netcoreapp3.1\CsharpRace02.runtimeconfig.json
+E:\CsharpStudy\CsharpRace02\bin\Debug\netcoreapp3.1\CsharpRace02.runtimeconfig.dev.json
+E:\CsharpStudy\CsharpRace02\bin\Debug\netcoreapp3.1\CsharpRace02.dll
+E:\CsharpStudy\CsharpRace02\bin\Debug\netcoreapp3.1\CsharpRace02.pdb
+E:\CsharpStudy\CsharpRace02\obj\Debug\netcoreapp3.1\CsharpRace02.csprojAssemblyReference.cache
+E:\CsharpStudy\CsharpRace02\obj\Debug\netcoreapp3.1\CsharpRace02.AssemblyInfoInputs.cache
+E:\CsharpStudy\CsharpRace02\obj\Debug\netcoreapp3.1\CsharpRace02.AssemblyInfo.cs
+E:\CsharpStudy\CsharpRace02\obj\Debug\netcoreapp3.1\CsharpRace02.dll
+E:\CsharpStudy\CsharpRace02\obj\Debug\netcoreapp3.1\CsharpRace02.pdb

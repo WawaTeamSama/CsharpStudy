@@ -26,7 +26,13 @@ namespace CsharpRace02
                 Console.WriteLine("请输入2个以上的数组个数");
                 n = Convert.ToInt32(Console.ReadLine());
             }
-            Console.WriteLine("请输入{0}个数", n);
+            Console.WriteLine("请输入{0}个数(以逗号分隔)", n);
+            string array = Console.ReadLine();
+            string[] stringArray = array.Split(",");
+            foreach(string i in stringArray)
+            {
+                Console.WriteLine(i);
+            }
         }
             
 
