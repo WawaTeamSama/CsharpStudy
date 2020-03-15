@@ -29,18 +29,20 @@ namespace CsharpRace02
             }
             Console.WriteLine("请输入{0}个数(以逗号分隔)", n);
             string array = Console.ReadLine();
-            string[] stringArray =array.Split(","); //将用户输入的内容转换为单个字符串传入一个数组
+            string[] stringArray = array.Split(",");//将用户输入的内容转换为单个字符串传入一个数组
 
-           
-            ArrayList intArray = new ArrayList();
-            foreach (string i in stringArray)
-            {
-                intArray.Add(i);
-            }
-            foreach(int i in intArray)
-            {
-                Console.WriteLine(i);
-            }
+
+            
+            int[] intArray = new int[n];
+
+            intArray = Array.ConvertAll(stringArray, int.Parse); //将string数组转成int数组
+            int i = 0;
+            int j = 1;
+            int result = 0;
+           //for(; i < n - 1; i++)  //若是三个数就比较两次 四个数就比较三次 所以是n-1次
+           // {
+           //     if()
+           // }
 
         }
             
