@@ -39,8 +39,7 @@ namespace CsharpRace02
             int i = 0;
             int j = 1;
             int result = 0;//记录逆序对个数
-            int p = n - 1;//中间变量
-            int count = p*(p + 1) / 2; //记录比较次数
+           
             for (; i < n; )  //若是两个数就比较1次 三个数就比较3次 四个数就比较6次  1 3 6 10所以是n先减1 后达成通项公式n(n+1)/2次
             { 
                 for (; j < n; j++)
