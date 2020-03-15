@@ -39,10 +39,15 @@ namespace CsharpRace02
             int i = 0;
             int j = 1;
             int result = 0;
-           //for(; i < n - 1; i++)  //若是三个数就比较两次 四个数就比较三次 所以是n-1次
-           // {
-           //     if()
-           // }
+            for (; i < n - 1; i++)  //若是三个数就比较两次 四个数就比较三次 所以是n-1次
+            {
+                if (intArray[i] > intArray[j])
+                {
+                    result++;
+                }
+                j++;
+            }
+            Console.WriteLine(result);
 
         }
             
