@@ -8,3 +8,4 @@ E:\CsharpStudy\Program13FlightGame\obj\Debug\netcoreapp3.1\Program13FlightGame.A
 E:\CsharpStudy\Program13FlightGame\obj\Debug\netcoreapp3.1\Program13FlightGame.AssemblyInfo.cs
 E:\CsharpStudy\Program13FlightGame\obj\Debug\netcoreapp3.1\Program13FlightGame.dll
 E:\CsharpStudy\Program13FlightGame\obj\Debug\netcoreapp3.1\Program13FlightGame.pdb
+E:\CsharpStudy\Program13FlightGame\obj\Debug\netcoreapp3.1\Program13FlightGame.csprojAssemblyReference.cache
