@@ -1,0 +1,11 @@
+E:\CsharpStudy\Program10Enum\bin\Debug\netcoreapp3.1\Program10Enum.exe
+E:\CsharpStudy\Program10Enum\bin\Debug\netcoreapp3.1\Program10Enum.deps.json
+E:\CsharpStudy\Program10Enum\bin\Debug\netcoreapp3.1\Program10Enum.runtimeconfig.json
+E:\CsharpStudy\Program10Enum\bin\Debug\netcoreapp3.1\Program10Enum.runtimeconfig.dev.json
+E:\CsharpStudy\Program10Enum\bin\Debug\netcoreapp3.1\Program10Enum.dll
+E:\CsharpStudy\Program10Enum\bin\Debug\netcoreapp3.1\Program10Enum.pdb
+E:\CsharpStudy\Program10Enum\obj\Debug\netcoreapp3.1\Program10Enum.csprojAssemblyReference.cache
+E:\CsharpStudy\Program10Enum\obj\Debug\netcoreapp3.1\Program10Enum.AssemblyInfoInputs.cache
+E:\CsharpStudy\Program10Enum\obj\Debug\netcoreapp3.1\Program10Enum.AssemblyInfo.cs
+E:\CsharpStudy\Program10Enum\obj\Debug\netcoreapp3.1\Program10Enum.dll
+E:\CsharpStudy\Program10Enum\obj\Debug\netcoreapp3.1\Program10Enum.pdb
