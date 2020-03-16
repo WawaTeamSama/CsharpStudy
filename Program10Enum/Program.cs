@@ -21,6 +21,14 @@ namespace Program10Enum
             Console.WriteLine("男是：" + (Gender)1);
             Console.WriteLine("女是：" + (Gender)2);
             #endregion
+
+            #region  字符串转枚举类型
+            string man = "男";
+            //字符串转枚举类型的固定格式
+            Gender g = (Gender)Enum.Parse(typeof(Gender), man);
+            
+            Console.WriteLine(g);
+            #endregion
         }
     }
 }
