@@ -6,8 +6,40 @@ namespace Program13FlightGame
     {
         static void Main(string[] args)
         {
+            //开场白
+            Console.ForegroundColor = ConsoleColor.Blue;
+            Console.WriteLine("*****************************");
+
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.WriteLine("*****************************");
+
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine("*****************************");
+            Console.WriteLine("**死亡版绅士飞行棋游戏--v1.0*");
+
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine("*****************************");
+
+            Console.ForegroundColor = ConsoleColor.Gray;
+            Console.WriteLine("*****************************");
+
+            Console.ForegroundColor = ConsoleColor.DarkRed;
+            Console.WriteLine("*****************************");
+            Console.WriteLine("请输入玩家A的姓名");
+
+            string NameA = Console.ReadLine();
+
+            Console.WriteLine("请输入玩家B的姓名");
+
+            string NameB = Console.ReadLine();
+
+            Console.Clear(); //清空控制台
+
+            Console.WriteLine("{0}的士兵用A表示", NameA);
+            Console.WriteLine("{0}的士兵用B表示", NameB);
+
             Console.ForegroundColor = ConsoleColor.DarkYellow ; //设置字体颜色为暗黄
-            Console.WriteLine("图例:幸运轮盘○  地雷:☆  暂停:△   时空隧道:卍");
+            
 
             //初始化地图
             string[] map = new string[] {"□","□","□", "□", "□","☆", "○", "□", "□", "△", "□", "□", "□", "☆", "□", "□", "□", "☆", "□", "□",
@@ -17,6 +49,12 @@ namespace Program13FlightGame
 
 
             ShowMap(map);
+
+            Console.WriteLine("玩家{0}按任意键开始掷骰子",NameA);
+            Console.ReadKey();//按任意键
+            Random Rnumber = new Random();//使用随机数
+            int number = Rnumber.Next(1, 7);//控制随机数生成区间为1-6
+            Console.WriteLine("玩家{0}掷出了{1}", NameA,number);
         }
         public static void StartMap()
         {
@@ -27,6 +65,7 @@ namespace Program13FlightGame
         } //初始化地图
         public static void ShowMap(string[] map) //绘制地图的方法
         {
+            Console.WriteLine("图例:幸运轮盘○  地雷:☆  暂停:△   时空隧道:卍");
             for (int i = 0; i < map.Length; i++)
             {
               
@@ -61,6 +100,7 @@ namespace Program13FlightGame
                     Console.Write(map[i]);
 
             }
+            Console.WriteLine();
         } 
     }
 }
