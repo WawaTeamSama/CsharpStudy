@@ -1,0 +1,11 @@
+E:\CsharpStudy\Program09Const\bin\Debug\netcoreapp3.1\Program09Const.exe
+E:\CsharpStudy\Program09Const\bin\Debug\netcoreapp3.1\Program09Const.deps.json
+E:\CsharpStudy\Program09Const\bin\Debug\netcoreapp3.1\Program09Const.runtimeconfig.json
+E:\CsharpStudy\Program09Const\bin\Debug\netcoreapp3.1\Program09Const.runtimeconfig.dev.json
+E:\CsharpStudy\Program09Const\bin\Debug\netcoreapp3.1\Program09Const.dll
+E:\CsharpStudy\Program09Const\bin\Debug\netcoreapp3.1\Program09Const.pdb
+E:\CsharpStudy\Program09Const\obj\Debug\netcoreapp3.1\Program09Const.csprojAssemblyReference.cache
+E:\CsharpStudy\Program09Const\obj\Debug\netcoreapp3.1\Program09Const.AssemblyInfoInputs.cache
+E:\CsharpStudy\Program09Const\obj\Debug\netcoreapp3.1\Program09Const.AssemblyInfo.cs
+E:\CsharpStudy\Program09Const\obj\Debug\netcoreapp3.1\Program09Const.dll
+E:\CsharpStudy\Program09Const\obj\Debug\netcoreapp3.1\Program09Const.pdb
