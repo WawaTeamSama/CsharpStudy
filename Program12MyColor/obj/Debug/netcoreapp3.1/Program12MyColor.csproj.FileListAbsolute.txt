@@ -1,0 +1,10 @@
+E:\CsharpStudy\Program12MyColor\bin\Debug\netcoreapp3.1\Program12MyColor.exe
+E:\CsharpStudy\Program12MyColor\bin\Debug\netcoreapp3.1\Program12MyColor.deps.json
+E:\CsharpStudy\Program12MyColor\bin\Debug\netcoreapp3.1\Program12MyColor.runtimeconfig.json
+E:\CsharpStudy\Program12MyColor\bin\Debug\netcoreapp3.1\Program12MyColor.runtimeconfig.dev.json
+E:\CsharpStudy\Program12MyColor\bin\Debug\netcoreapp3.1\Program12MyColor.dll
+E:\CsharpStudy\Program12MyColor\bin\Debug\netcoreapp3.1\Program12MyColor.pdb
+E:\CsharpStudy\Program12MyColor\obj\Debug\netcoreapp3.1\Program12MyColor.AssemblyInfoInputs.cache
+E:\CsharpStudy\Program12MyColor\obj\Debug\netcoreapp3.1\Program12MyColor.AssemblyInfo.cs
+E:\CsharpStudy\Program12MyColor\obj\Debug\netcoreapp3.1\Program12MyColor.dll
+E:\CsharpStudy\Program12MyColor\obj\Debug\netcoreapp3.1\Program12MyColor.pdb
