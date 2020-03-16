@@ -1,0 +1,11 @@
+E:\CsharpStudy\Program11Struct\bin\Debug\netcoreapp3.1\Program11Struct.exe
+E:\CsharpStudy\Program11Struct\bin\Debug\netcoreapp3.1\Program11Struct.deps.json
+E:\CsharpStudy\Program11Struct\bin\Debug\netcoreapp3.1\Program11Struct.runtimeconfig.json
+E:\CsharpStudy\Program11Struct\bin\Debug\netcoreapp3.1\Program11Struct.runtimeconfig.dev.json
+E:\CsharpStudy\Program11Struct\bin\Debug\netcoreapp3.1\Program11Struct.dll
+E:\CsharpStudy\Program11Struct\bin\Debug\netcoreapp3.1\Program11Struct.pdb
+E:\CsharpStudy\Program11Struct\obj\Debug\netcoreapp3.1\Program11Struct.csprojAssemblyReference.cache
+E:\CsharpStudy\Program11Struct\obj\Debug\netcoreapp3.1\Program11Struct.AssemblyInfoInputs.cache
+E:\CsharpStudy\Program11Struct\obj\Debug\netcoreapp3.1\Program11Struct.AssemblyInfo.cs
+E:\CsharpStudy\Program11Struct\obj\Debug\netcoreapp3.1\Program11Struct.dll
+E:\CsharpStudy\Program11Struct\obj\Debug\netcoreapp3.1\Program11Struct.pdb
