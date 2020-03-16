@@ -8,3 +8,4 @@ E:\CsharpStudy\Program12MyColor\obj\Debug\netcoreapp3.1\Program12MyColor.Assembl
 E:\CsharpStudy\Program12MyColor\obj\Debug\netcoreapp3.1\Program12MyColor.AssemblyInfo.cs
 E:\CsharpStudy\Program12MyColor\obj\Debug\netcoreapp3.1\Program12MyColor.dll
 E:\CsharpStudy\Program12MyColor\obj\Debug\netcoreapp3.1\Program12MyColor.pdb
+E:\CsharpStudy\Program12MyColor\obj\Debug\netcoreapp3.1\Program12MyColor.csprojAssemblyReference.cache
