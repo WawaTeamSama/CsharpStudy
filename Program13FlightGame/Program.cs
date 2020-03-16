@@ -50,11 +50,8 @@ namespace Program13FlightGame
 
             ShowMap(map);
 
-            Console.WriteLine("玩家{0}按任意键开始掷骰子",NameA);
-            Console.ReadKey();//按任意键
-            Random Rnumber = new Random();//使用随机数
-            int number = Rnumber.Next(1, 7);//控制随机数生成区间为1-6
-            Console.WriteLine("玩家{0}掷出了{1}", NameA,number);
+            ActA(NameA,map);
+           
         }
         public static void StartMap()
         {
@@ -102,5 +99,21 @@ namespace Program13FlightGame
             }
             Console.WriteLine();
         } 
+
+        public static void ActA(string NameA, string[] map) //玩家A的行动回合
+        {
+            Console.WriteLine("玩家{0}按任意键开始掷骰子", NameA);
+            Console.ReadKey();//按任意键继续
+            Random Rnumber = new Random();//使用随机数
+            int number = Rnumber.Next(1, 7);//控制随机数生成区间为1-6
+            Console.WriteLine("玩家{0}掷出了{1}", NameA, number);
+            Console.ReadKey();//按任意键
+            Console.WriteLine("玩家{0}按任意键开始行动", NameA);
+            Console.ReadKey();//按任意键
+            Console.WriteLine("玩家{0}行动完了", NameA);
+            Console.ReadKey();//按任意键
+            string result = "踩到了方块,神马都不干";
+            Console.WriteLine("玩家{0}{1}", NameA,result);
+        }
     }
 }
