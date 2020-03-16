@@ -1,0 +1,10 @@
+E:\CsharpStudy\Program13FlightGame\bin\Debug\netcoreapp3.1\Program13FlightGame.exe
+E:\CsharpStudy\Program13FlightGame\bin\Debug\netcoreapp3.1\Program13FlightGame.deps.json
+E:\CsharpStudy\Program13FlightGame\bin\Debug\netcoreapp3.1\Program13FlightGame.runtimeconfig.json
+E:\CsharpStudy\Program13FlightGame\bin\Debug\netcoreapp3.1\Program13FlightGame.runtimeconfig.dev.json
+E:\CsharpStudy\Program13FlightGame\bin\Debug\netcoreapp3.1\Program13FlightGame.dll
+E:\CsharpStudy\Program13FlightGame\bin\Debug\netcoreapp3.1\Program13FlightGame.pdb
+E:\CsharpStudy\Program13FlightGame\obj\Debug\netcoreapp3.1\Program13FlightGame.AssemblyInfoInputs.cache
+E:\CsharpStudy\Program13FlightGame\obj\Debug\netcoreapp3.1\Program13FlightGame.AssemblyInfo.cs
+E:\CsharpStudy\Program13FlightGame\obj\Debug\netcoreapp3.1\Program13FlightGame.dll
+E:\CsharpStudy\Program13FlightGame\obj\Debug\netcoreapp3.1\Program13FlightGame.pdb
