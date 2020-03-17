@@ -1,0 +1,11 @@
+E:\CsharpStudy\Program15Sort\bin\Debug\netcoreapp3.1\Program15Sort.exe
+E:\CsharpStudy\Program15Sort\bin\Debug\netcoreapp3.1\Program15Sort.deps.json
+E:\CsharpStudy\Program15Sort\bin\Debug\netcoreapp3.1\Program15Sort.runtimeconfig.json
+E:\CsharpStudy\Program15Sort\bin\Debug\netcoreapp3.1\Program15Sort.runtimeconfig.dev.json
+E:\CsharpStudy\Program15Sort\bin\Debug\netcoreapp3.1\Program15Sort.dll
+E:\CsharpStudy\Program15Sort\bin\Debug\netcoreapp3.1\Program15Sort.pdb
+E:\CsharpStudy\Program15Sort\obj\Debug\netcoreapp3.1\Program15Sort.csprojAssemblyReference.cache
+E:\CsharpStudy\Program15Sort\obj\Debug\netcoreapp3.1\Program15Sort.AssemblyInfoInputs.cache
+E:\CsharpStudy\Program15Sort\obj\Debug\netcoreapp3.1\Program15Sort.AssemblyInfo.cs
+E:\CsharpStudy\Program15Sort\obj\Debug\netcoreapp3.1\Program15Sort.dll
+E:\CsharpStudy\Program15Sort\obj\Debug\netcoreapp3.1\Program15Sort.pdb
