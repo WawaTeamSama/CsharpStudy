@@ -43,10 +43,10 @@ namespace Program15Sort
             //        array [i] = t;
             //    }
             //}
-            //foreach (int i in array)
-            //{
-            //    Console.WriteLine(i);
-            //}
+            foreach (int i in array)
+            {
+                Console.WriteLine(i);
+            }
 
             //3.插入排序
             for (int i = 1; i < l; i++)
