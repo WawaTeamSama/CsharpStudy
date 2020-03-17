@@ -60,10 +60,10 @@ namespace Program15Sort
                 }
                 array[j + 1] = wait;
             }
-            foreach (int i in array)
-            {
-                Console.WriteLine(i);
-            }
+            //foreach (int i in array)
+            //{
+            //    Console.WriteLine(i);
+            //}
 
     }
     }
