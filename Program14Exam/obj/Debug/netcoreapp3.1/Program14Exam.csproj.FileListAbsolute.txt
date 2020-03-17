@@ -8,3 +8,4 @@ E:\CsharpStudy\Program14Exam\obj\Debug\netcoreapp3.1\Program14Exam.AssemblyInfoI
 E:\CsharpStudy\Program14Exam\obj\Debug\netcoreapp3.1\Program14Exam.AssemblyInfo.cs
 E:\CsharpStudy\Program14Exam\obj\Debug\netcoreapp3.1\Program14Exam.dll
 E:\CsharpStudy\Program14Exam\obj\Debug\netcoreapp3.1\Program14Exam.pdb
+E:\CsharpStudy\Program14Exam\obj\Debug\netcoreapp3.1\Program14Exam.csprojAssemblyReference.cache

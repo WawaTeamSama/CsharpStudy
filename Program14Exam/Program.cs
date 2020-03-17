@@ -23,6 +23,13 @@ namespace Program14Exam
 
             ave = sum / intArray.Length;
             Console.WriteLine("最大值{0},最小值{1},总和{2},平均值{3}", max, min, sum, ave);
+
+            //3.数组里的人名分割
+            string[] strArray = new string[] { "老杨", "老苏", "老马", "老牛" };
+            foreach(string i in strArray)
+            {
+                Console.Write(i + "|");
+            }
         }
     }
 }
