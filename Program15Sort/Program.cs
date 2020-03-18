@@ -6,7 +6,7 @@ namespace Program15Sort
     {
         static void Main(string[] args)
         {
-            //1.冒泡排序法
+            //1.冒泡排序法 即比较每一位以及其后一位 如果后一位小，就交换位置，每一次遍历结束后会确定一个最大值，所以下一次遍历需要减少一次 就是找出每一次的最大值 然后放在数组的最后面
             int[] array = new int[] { 4, 5, 2, 1, 3 };
             int l = array.Length;
             //for (int j = 0; j < l; ++j)
