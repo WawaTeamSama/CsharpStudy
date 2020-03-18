@@ -25,7 +25,7 @@ namespace Program15Sort
             {
                 Console.WriteLine(i);
             }
-            //2.选择排序
+            //2.选择排序 即比较每一项以及后一项 记录每次循环中最小值的下标并保存，循环一次后将最小值放在第i位(i从0开始)
             //for (int i = 0; i < l - 1; i++)
             //{
             //    int index = i;
