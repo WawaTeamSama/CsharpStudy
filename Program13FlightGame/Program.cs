@@ -6,6 +6,10 @@ namespace Program13FlightGame
     {
         static void Main(string[] args)
         {
+
+            //1 画游戏头
+            //2 输入玩家姓名
+            //3 初始化飞行棋地图
             //开场白
             Console.ForegroundColor = ConsoleColor.Blue;
             Console.WriteLine("*****************************");
