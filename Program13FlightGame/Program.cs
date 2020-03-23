@@ -171,7 +171,26 @@ namespace Program13FlightGame
             Console.WriteLine("图例:幸运轮盘○  地雷:☆  暂停:△   时空隧道:卍");
             for (int i = 0; i < map.Length; i++)
             {
-              
+              if(map[i]== "○")
+                {
+                    Console.ForegroundColor = ConsoleColor.Green;
+                }
+              else if(map[i]== "☆")
+                {
+                    Console.ForegroundColor = ConsoleColor.Red;
+                }
+                else if (map[i] == "△")
+                {
+                    Console.ForegroundColor = ConsoleColor.Blue;
+                }
+                else if (map[i] == "卍")
+                {
+                    Console.ForegroundColor = ConsoleColor.Cyan;
+                }
+                else
+                {
+                    Console.ForegroundColor = ConsoleColor.DarkYellow;
+                }
                 if (i > 29 && i < 34)
                 {
                     Console.WriteLine();

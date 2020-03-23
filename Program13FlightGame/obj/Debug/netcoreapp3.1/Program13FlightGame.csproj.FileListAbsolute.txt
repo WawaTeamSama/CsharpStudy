@@ -9,3 +9,16 @@ E:\CsharpStudy\Program13FlightGame\obj\Debug\netcoreapp3.1\Program13FlightGame.A
 E:\CsharpStudy\Program13FlightGame\obj\Debug\netcoreapp3.1\Program13FlightGame.dll
 E:\CsharpStudy\Program13FlightGame\obj\Debug\netcoreapp3.1\Program13FlightGame.pdb
 E:\CsharpStudy\Program13FlightGame\obj\Debug\netcoreapp3.1\Program13FlightGame.csprojAssemblyReference.cache
+D:\CsharpStudy\Program13FlightGame\bin\Debug\netcoreapp3.1\Program13FlightGame.exe
+D:\CsharpStudy\Program13FlightGame\bin\Debug\netcoreapp3.1\Program13FlightGame.deps.json
+D:\CsharpStudy\Program13FlightGame\bin\Debug\netcoreapp3.1\Program13FlightGame.runtimeconfig.json
+D:\CsharpStudy\Program13FlightGame\bin\Debug\netcoreapp3.1\Program13FlightGame.runtimeconfig.dev.json
+D:\CsharpStudy\Program13FlightGame\bin\Debug\netcoreapp3.1\Program13FlightGame.dll
+D:\CsharpStudy\Program13FlightGame\bin\Debug\netcoreapp3.1\Program13FlightGame.pdb
+D:\CsharpStudy\Program13FlightGame\obj\Debug\netcoreapp3.1\Program13FlightGame.csprojAssemblyReference.cache
+D:\CsharpStudy\Program13FlightGame\obj\Debug\netcoreapp3.1\Program13FlightGame.csproj.CoreCompileInputs.cache
+D:\CsharpStudy\Program13FlightGame\obj\Debug\netcoreapp3.1\Program13FlightGame.AssemblyInfoInputs.cache
+D:\CsharpStudy\Program13FlightGame\obj\Debug\netcoreapp3.1\Program13FlightGame.AssemblyInfo.cs
+D:\CsharpStudy\Program13FlightGame\obj\Debug\netcoreapp3.1\Program13FlightGame.dll
+D:\CsharpStudy\Program13FlightGame\obj\Debug\netcoreapp3.1\Program13FlightGame.pdb
+D:\CsharpStudy\Program13FlightGame\obj\Debug\netcoreapp3.1\Program13FlightGame.genruntimeconfig.cache
