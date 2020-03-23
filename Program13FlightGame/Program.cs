@@ -35,10 +35,23 @@ namespace Program13FlightGame
             Console.WriteLine("请输入玩家A的姓名");
 
             string NameA = Console.ReadLine();
+            if(string.IsNullOrEmpty(NameA))
+            {
+                Console.WriteLine("玩家名字不能为空！");
+
+            }
 
             Console.WriteLine("请输入玩家B的姓名");
 
+            
             string NameB = Console.ReadLine();
+            if(string.IsNullOrEmpty(NameB))
+            {
+               Console.WriteLine("玩家名字不能为空！");            
+            }
+            if(NameB==NameA)
+                Console.WriteLine("玩家名字不能重复！");
+            
 
             Console.Clear(); //清空控制台
 
