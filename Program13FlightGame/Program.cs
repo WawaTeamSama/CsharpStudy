@@ -157,7 +157,7 @@ namespace Program13FlightGame
                 
                 Console.Clear();
             }
-            Console.WriteLine("恭喜小惠胜利,你觉得还好玩吗.");
+            Showvictory();
         }
         public static void StartMap()
         {
@@ -420,7 +420,26 @@ namespace Program13FlightGame
                     return "1," + positionA + "," + positionB;  //返回1表示回合未被暂停
                 }
             }
-            
+        public static void Showvictory()
+        {
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine("                                          ◆                      ");
+            Console.WriteLine("                    ■                  ◆               ■        ■");
+            Console.WriteLine("      ■■■■  ■  ■                ◆■         ■    ■        ■");
+            Console.WriteLine("      ■    ■  ■  ■              ◆  ■         ■    ■        ■");
+            Console.WriteLine("      ■    ■ ■■■■■■       ■■■■■■■   ■    ■        ■");
+            Console.WriteLine("      ■■■■ ■   ■                ●■●       ■    ■        ■");
+            Console.WriteLine("      ■    ■      ■               ● ■ ●      ■    ■        ■");
+            Console.WriteLine("      ■    ■ ■■■■■■         ●  ■  ●     ■    ■        ■");
+            Console.WriteLine("      ■■■■      ■             ●   ■   ■    ■    ■        ■");
+            Console.WriteLine("      ■    ■      ■            ■    ■         ■    ■        ■");
+            Console.WriteLine("      ■    ■      ■                  ■               ■        ■ ");
+            Console.WriteLine("     ■     ■      ■                  ■           ●  ■          ");
+            Console.WriteLine("    ■    ■■ ■■■■■■             ■              ●         ●");
+            Console.ResetColor();
+        }
+
+
         }
     }
 
